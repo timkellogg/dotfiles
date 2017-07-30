@@ -1,0 +1,26 @@
+[alias]
+	co = checkout
+	br = branch
+	c = commit
+  po = pull origin
+  st = status
+  dn = diff --name-only
+  d = diff
+  l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+  ld = log -p
+  cob = checkout -b
+  cc = cherry -v
+  ri = rebase -i
+  s = stash
+  sa = stash apply
+  ga = add -p
+  last = log -1 HEAD
+[color]
+	ui = true
+[user]
+	name = Tim Kellogg
+	email = tim.kellogg@gmail.com
+[core]
+	editor = /usr/bin/vim
+[credential]
+	helper = osxkeychain
